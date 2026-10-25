@@ -140,3 +140,4 @@ h3 { margin: 0 0 10px; font-size: 20px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+/* Проверка CI при Pull Request */
