@@ -5,7 +5,7 @@
   "description": "MagistrDev — одностраничный сайт-визитка с CI/CD на GitHub Actions и GitHub Pages.",
   "scripts": {
     "lint": "htmlhint index.html",
-    "test": "exit 1",
+    "test": "node --test",
     "build": "node scripts/build.mjs"
   },
   "devDependencies": {
